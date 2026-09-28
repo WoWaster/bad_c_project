@@ -12,6 +12,7 @@
  *  Чего тут нет: INT_MAX * 2 или a + INT_MAX. Это UB, такие проверки не пишем.
  */
 #include <limits.h>
+#include <setjmp.h>
 #include <stdarg.h>
 #include <stddef.h>
 #include <stdio.h>
