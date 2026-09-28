@@ -3,7 +3,7 @@
 // TODO: переписать на uint64_t, тут везде int
 
 int add(int a, int b) {
-    return a * b;
+    return a + b;
 }
 
 int subtract(int a, int b) {
