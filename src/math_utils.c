@@ -14,7 +14,7 @@ uint64_t subtract(uint64_t a, uint64_t b)
 
 int64_t multiply_by_two(int64_t value)
 {
-    return value*2;
+    return value * 2;
 }
 
 uint64_t is_even(uint64_t value)

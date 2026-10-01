@@ -3,7 +3,7 @@
 
 // простые арифметические хелперы
 // TODO: подумать про namespace, в C же нет namespace
-#include <stdint.h>  
+#include <stdint.h>
 
 typedef enum {
     MATH_OP_ADD,
