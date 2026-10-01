@@ -1,4 +1,5 @@
 {
+  "editor.formatOnSave": true,
   "C_Cpp.default.formatting": "Visual Studio",
   "C_Cpp.default.intelliSenseMode": "${defaultIntelliSenseMode}",
   "C_Cpp.clang_format_language": "English",
