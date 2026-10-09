@@ -33,17 +33,15 @@
 | Путь | Что это |
 |---|---|
 | `src/math_utils.h`, `src/math_utils.c` | сама библиотека: `add`, `subtract`, `multiply_by_two`, `is_even` |
+| `src/stats.h`, `src/stats.c` | статистика: `stats_mean`, `stats_median`, `stats_variance` |
 | `src/main.c` | консольная утилита `math_cli` |
-| `tests/test_math_utils.c` | юнит-тесты на cmocka |
+| `tests/test_math_utils.c`, `tests/test_stats.c` | юнит-тесты на cmocka; тесты `math_cli` описаны прямо в `CMakeLists.txt` |
 | `CMakeLists.txt` | описание сборки, здесь же регистрируются тесты |
 | `.clang-format` | стиль форматирования, на который ориентируется проверка |
 | `scripts/` | скрипты: зависимости, сборка, тесты, форматирование |
 | `.github/workflows/ci.yml` | три CI-проверки: `build`, `format-check`, `test` |
-| `build/` | каталог, куда собирается проект |
-| `docs/ARCHITECTURE.md` | старая заметка об архитектуре, к коду отношения не имеет |
-
-`src/Calc.c`, `src/legacy_math.c` — остатки прошлых попыток, в сборку не
-подключены. Их можно не читать.
+| `build/` | каталог, куда собирается проект (в git не хранится) |
+| `docs/ARCHITECTURE.md` | заметка об архитектуре |
 
 ## Требования
 

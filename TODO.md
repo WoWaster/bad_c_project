@@ -3,10 +3,10 @@ todo
 
 - [x] переехать с makefile на cmake (2019)
 - [x] clang-format
-- [ ] разобраться с красным CI
-- [ ] выкинуть src/Calc.c и src/legacy_math.c
-- [ ] покрыть main.c тестами (там же просто арифметика)
-- [ ] enum math_op_t - нужен ли вообще, нигде не используется
-- [ ] починить build/, который закоммитили (мешает)
-- [ ] решить, нужен ли нам cmocka вообще, может свой assert написать
-- [ ] вернуть Statistics из docs/ARCHITECTURE.md
+- [x] разобраться с красным CI (починили `multiply_by_two` и форматирование; в форке надо включить Actions)
+- [x] выкинуть src/Calc.c и src/legacy_math.c
+- [x] покрыть main.c тестами (там же просто арифметика)
+- [x] enum math_op_t - не нужен, удалили
+- [x] починить build/, который закоммитили (мешает)
+- [x] решить, нужен ли нам cmocka вообще - оставляем: работает, есть в CI и CONTRIBUTING, свой assert ничего не даст
+- [x] вернуть Statistics из docs/ARCHITECTURE.md

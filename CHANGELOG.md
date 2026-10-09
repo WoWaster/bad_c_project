@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+- починили `multiply_by_two` и форматирование, CI снова зелёный
+- вернули статистику: `stats_mean`, `stats_median`, `stats_variance`
+- тесты на `math_cli`
+- удалили `src/Calc.c`, `src/legacy_math.c` и неиспользуемый `math_op_t`
+- убрали `build/` из git
+
 ## 0.4.0 - 2019-11-14
 
 - переехали на cmake
